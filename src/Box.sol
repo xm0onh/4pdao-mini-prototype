@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Box is Ownable {
   string private brandName;
-
+   string private activity; 
   // Emitted when the stored value changes
   event ValueChanged(string newbrandName);
 
